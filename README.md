@@ -38,7 +38,7 @@ This setup is designed to give you a ready-to-use workspace for machine learning
    ```bash
    git clone https://github.com/Nontre12/docker-rocm-pytorch-jupyter
    cd docker-rocm-pytorch-jupyter
-````
+   ```
 
 2. **Start the service:**
 
@@ -66,4 +66,3 @@ This setup is designed to give you a ready-to-use workspace for machine learning
 ## 📜 License
 
 MIT License
-
