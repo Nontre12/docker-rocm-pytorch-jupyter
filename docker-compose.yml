@@ -1,0 +1,14 @@
+---
+services:
+  jupyter_notebook:
+    build: .
+    devices:
+      - /dev/kfd
+      - /dev/dri
+    security_opt:
+      - seccomp=unconfined
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    ports:
+      - 8888:8888
